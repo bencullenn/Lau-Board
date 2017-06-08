@@ -13,26 +13,26 @@
         <scene sceneID="fff-Ny-Jh7">
             <objects>
                 <collectionViewController title="Sound Board" id="99M-LN-81n" customClass="CollectionViewController" customModule="Lau_Board" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Gqe-vh-ASw">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Gqe-vh-ASw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="r55-iF-MdX">
-                            <size key="itemSize" width="118" height="70"/>
+                            <size key="itemSize" width="180" height="101"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1bD-NW-5gZ">
-                                <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="101"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4Y-4D-bFZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="118" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="101"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Sound Name"/>
                                             <connections>
@@ -49,10 +49,11 @@
                             <outlet property="delegate" destination="99M-LN-81n" id="ufF-gN-gzY"/>
                         </connections>
                     </collectionView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Miq-Ue-hCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="580" y="129.98500749625188"/>
+            <point key="canvasLocation" x="586" y="110"/>
         </scene>
     </scenes>
 </document>

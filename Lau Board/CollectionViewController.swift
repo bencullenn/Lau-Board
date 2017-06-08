@@ -76,7 +76,7 @@ class CollectionViewController: UICollectionViewController {
         audioPlayer.prepareToPlay()
         // Create an audio session
             do {
-                var audioSession = AVAudioSession.sharedInstance()
+                let audioSession = AVAudioSession.sharedInstance()
 
                 try audioSession.setCategory(AVAudioSessionCategoryPlayback)
             }catch{
