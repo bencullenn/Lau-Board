@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0C63A1F51EE9C874000449A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63A1F41EE9C874000449A3 /* AppDelegate.swift */; };
-		0C63A1F71EE9C874000449A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63A1F61EE9C874000449A3 /* ViewController.swift */; };
+		0C63A1F71EE9C874000449A3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */; };
 		0C63A1FA1EE9C875000449A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1F81EE9C874000449A3 /* Main.storyboard */; };
 		0C63A1FC1EE9C875000449A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1FB1EE9C875000449A3 /* Assets.xcassets */; };
 		0C63A1FF1EE9C875000449A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */; };
+		0C63A2071EE9CEA0000449A3 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63A2061EE9CEA0000449A3 /* Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C63A1F11EE9C874000449A3 /* Lau Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lau Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C63A1F41EE9C874000449A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C63A1F61EE9C874000449A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		0C63A1F91EE9C874000449A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C63A1FB1EE9C875000449A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C63A1FE1EE9C875000449A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C63A2001EE9C875000449A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C63A2061EE9CEA0000449A3 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				0C63A1F41EE9C874000449A3 /* AppDelegate.swift */,
-				0C63A1F61EE9C874000449A3 /* ViewController.swift */,
+				0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */,
+				0C63A2061EE9CEA0000449A3 /* Sound.swift */,
 				0C63A1F81EE9C874000449A3 /* Main.storyboard */,
 				0C63A1FB1EE9C875000449A3 /* Assets.xcassets */,
 				0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */,
 				0C63A2001EE9C875000449A3 /* Info.plist */,
+				0C63A2081EE9D0B7000449A3 /* Sound Effects */,
 			);
 			path = "Lau Board";
+			sourceTree = "<group>";
+		};
+		0C63A2081EE9D0B7000449A3 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Sound Effects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C63A1F71EE9C874000449A3 /* ViewController.swift in Sources */,
+				0C63A1F71EE9C874000449A3 /* CollectionViewController.swift in Sources */,
+				0C63A2071EE9CEA0000449A3 /* Sound.swift in Sources */,
 				0C63A1F51EE9C874000449A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				0C63A2051EE9C875000449A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
