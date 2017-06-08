@@ -12,7 +12,20 @@
 		0C63A1FA1EE9C875000449A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1F81EE9C874000449A3 /* Main.storyboard */; };
 		0C63A1FC1EE9C875000449A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1FB1EE9C875000449A3 /* Assets.xcassets */; };
 		0C63A1FF1EE9C875000449A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */; };
-		0C63A2071EE9CEA0000449A3 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C63A2061EE9CEA0000449A3 /* Sound.swift */; };
+		0C63A2171EE9D215000449A3 /* allright.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2091EE9D215000449A3 /* allright.wav */; };
+		0C63A2181EE9D215000449A3 /* anyquestions.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20A1EE9D215000449A3 /* anyquestions.wav */; };
+		0C63A2191EE9D215000449A3 /* aye.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20B1EE9D215000449A3 /* aye.wav */; };
+		0C63A21A1EE9D215000449A3 /* candobetter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20C1EE9D215000449A3 /* candobetter.wav */; };
+		0C63A21B1EE9D215000449A3 /* doable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20D1EE9D215000449A3 /* doable.wav */; };
+		0C63A21C1EE9D215000449A3 /* java.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20E1EE9D215000449A3 /* java.wav */; };
+		0C63A21D1EE9D215000449A3 /* lunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A20F1EE9D215000449A3 /* lunch.wav */; };
+		0C63A21E1EE9D215000449A3 /* moses.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2101EE9D215000449A3 /* moses.wav */; };
+		0C63A21F1EE9D215000449A3 /* ohh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2111EE9D215000449A3 /* ohh.wav */; };
+		0C63A2201EE9D215000449A3 /* ohno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2121EE9D215000449A3 /* ohno.wav */; };
+		0C63A2211EE9D215000449A3 /* ok.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2131EE9D215000449A3 /* ok.wav */; };
+		0C63A2221EE9D215000449A3 /* putawayyourcellphone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2141EE9D215000449A3 /* putawayyourcellphone.wav */; };
+		0C63A2231EE9D215000449A3 /* seemepls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2151EE9D215000449A3 /* seemepls.wav */; };
+		0C63A2241EE9D215000449A3 /* verydoable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C63A2161EE9D215000449A3 /* verydoable.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +36,20 @@
 		0C63A1FB1EE9C875000449A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C63A1FE1EE9C875000449A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C63A2001EE9C875000449A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C63A2061EE9CEA0000449A3 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		0C63A2091EE9D215000449A3 /* allright.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = allright.wav; sourceTree = "<group>"; };
+		0C63A20A1EE9D215000449A3 /* anyquestions.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = anyquestions.wav; sourceTree = "<group>"; };
+		0C63A20B1EE9D215000449A3 /* aye.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aye.wav; sourceTree = "<group>"; };
+		0C63A20C1EE9D215000449A3 /* candobetter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = candobetter.wav; sourceTree = "<group>"; };
+		0C63A20D1EE9D215000449A3 /* doable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doable.wav; sourceTree = "<group>"; };
+		0C63A20E1EE9D215000449A3 /* java.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = java.wav; sourceTree = "<group>"; };
+		0C63A20F1EE9D215000449A3 /* lunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lunch.wav; sourceTree = "<group>"; };
+		0C63A2101EE9D215000449A3 /* moses.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = moses.wav; sourceTree = "<group>"; };
+		0C63A2111EE9D215000449A3 /* ohh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohh.wav; sourceTree = "<group>"; };
+		0C63A2121EE9D215000449A3 /* ohno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohno.wav; sourceTree = "<group>"; };
+		0C63A2131EE9D215000449A3 /* ok.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ok.wav; sourceTree = "<group>"; };
+		0C63A2141EE9D215000449A3 /* putawayyourcellphone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = putawayyourcellphone.wav; sourceTree = "<group>"; };
+		0C63A2151EE9D215000449A3 /* seemepls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seemepls.wav; sourceTree = "<group>"; };
+		0C63A2161EE9D215000449A3 /* verydoable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = verydoable.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +84,6 @@
 			children = (
 				0C63A1F41EE9C874000449A3 /* AppDelegate.swift */,
 				0C63A1F61EE9C874000449A3 /* CollectionViewController.swift */,
-				0C63A2061EE9CEA0000449A3 /* Sound.swift */,
 				0C63A1F81EE9C874000449A3 /* Main.storyboard */,
 				0C63A1FB1EE9C875000449A3 /* Assets.xcassets */,
 				0C63A1FD1EE9C875000449A3 /* LaunchScreen.storyboard */,
@@ -71,6 +96,20 @@
 		0C63A2081EE9D0B7000449A3 /* Sound Effects */ = {
 			isa = PBXGroup;
 			children = (
+				0C63A2091EE9D215000449A3 /* allright.wav */,
+				0C63A20A1EE9D215000449A3 /* anyquestions.wav */,
+				0C63A20B1EE9D215000449A3 /* aye.wav */,
+				0C63A20C1EE9D215000449A3 /* candobetter.wav */,
+				0C63A20D1EE9D215000449A3 /* doable.wav */,
+				0C63A20E1EE9D215000449A3 /* java.wav */,
+				0C63A20F1EE9D215000449A3 /* lunch.wav */,
+				0C63A2101EE9D215000449A3 /* moses.wav */,
+				0C63A2111EE9D215000449A3 /* ohh.wav */,
+				0C63A2121EE9D215000449A3 /* ohno.wav */,
+				0C63A2131EE9D215000449A3 /* ok.wav */,
+				0C63A2141EE9D215000449A3 /* putawayyourcellphone.wav */,
+				0C63A2151EE9D215000449A3 /* seemepls.wav */,
+				0C63A2161EE9D215000449A3 /* verydoable.wav */,
 			);
 			name = "Sound Effects";
 			sourceTree = "<group>";
@@ -135,9 +174,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C63A2191EE9D215000449A3 /* aye.wav in Resources */,
 				0C63A1FF1EE9C875000449A3 /* LaunchScreen.storyboard in Resources */,
 				0C63A1FC1EE9C875000449A3 /* Assets.xcassets in Resources */,
+				0C63A2221EE9D215000449A3 /* putawayyourcellphone.wav in Resources */,
+				0C63A21E1EE9D215000449A3 /* moses.wav in Resources */,
 				0C63A1FA1EE9C875000449A3 /* Main.storyboard in Resources */,
+				0C63A2231EE9D215000449A3 /* seemepls.wav in Resources */,
+				0C63A21A1EE9D215000449A3 /* candobetter.wav in Resources */,
+				0C63A21F1EE9D215000449A3 /* ohh.wav in Resources */,
+				0C63A2201EE9D215000449A3 /* ohno.wav in Resources */,
+				0C63A21B1EE9D215000449A3 /* doable.wav in Resources */,
+				0C63A2241EE9D215000449A3 /* verydoable.wav in Resources */,
+				0C63A21C1EE9D215000449A3 /* java.wav in Resources */,
+				0C63A2171EE9D215000449A3 /* allright.wav in Resources */,
+				0C63A2181EE9D215000449A3 /* anyquestions.wav in Resources */,
+				0C63A2211EE9D215000449A3 /* ok.wav in Resources */,
+				0C63A21D1EE9D215000449A3 /* lunch.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C63A1F71EE9C874000449A3 /* CollectionViewController.swift in Sources */,
-				0C63A2071EE9CEA0000449A3 /* Sound.swift in Sources */,
 				0C63A1F51EE9C874000449A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
