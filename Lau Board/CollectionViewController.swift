@@ -64,7 +64,8 @@ class CollectionViewController: UICollectionViewController {
         
         let button: UIButton = cell.viewWithTag(1) as! UIButton
         
-        button.setTitle(soundTitles[indexPath.row], for: UIControlState.normal)
+        let attributedString = NSMutableAttributedString(string: soundTitles[indexPath.row], attributes:[ NSForegroundColorAttributeName: UIColor.black, NSFontAttributeName: UIFont(name:"System Font Regular",size:18.0)!])
+        button.setAttributedTitle(attributedString, for: .normal)
         
         return cell
     }
